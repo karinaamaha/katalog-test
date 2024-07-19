@@ -7,16 +7,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans m-0 p-0">
-    <header class="bg-red-600 text-white py-2 px-8 flex justify-between items-center fixed w-full z-20 top-0 start-0">
-        <div class="text-2xl font-bold pl-4">
+    <header class="max-w-screen-2xl bg-red-600 text-white py-2 px-8 flex justify-between items-center fixed w-full z-20 top-0 start-0 columns-3">
+        <div class="text-2xl font-bold pl-4 w-1/3">
             <img src="../image/Logo.png" alt="Company Logo" class="h-8">
         </div>
-        <nav class="flex items-center gap-8">
-            <input type="search" placeholder="Search" class="py-2 px-4 rounded-full border-none w-96 mr-8">
-            <a href="#" class="text-white no-underline text-sm">Home</a>
+        <nav class="flex items-center gap-8 w-1/3">
+            <input type="search" placeholder="Search" class="py-2 px-4 rounded-full border-none w-full text-black ">
+        </nav>
+        <div class="flex justify-between w-1/3 ps-48">
+        <a href="#" class="text-white no-underline text-sm">Home</a>
             <a href="#" class="text-white no-underline text-sm">Products</a>
             <a href="#" class="text-white no-underline text-sm pr-4">About Us</a>
-        </nav>
+        </div>
     </header>
     
     <main class="h-full">

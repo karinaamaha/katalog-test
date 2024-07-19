@@ -22,7 +22,7 @@
     <main class="h-full p-8">
     <div class="flex flex-col md:flex-row gap-8">
         <div class="md:w-1/2">
-            <img src="../image/foto.png" alt="Product" class="w-full rounded-lg mb-4">
+            <img src="../image/rectangle.png" alt="Product" class="w-1/2 rounded-lg mb-4">
              <div class="flex overflow-x-auto gap-2">
                 <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
                 <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
@@ -31,9 +31,7 @@
                 <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
                 <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
                 <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
-                <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
-                <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
-                <img src="../image/foto.png" alt="Thumbnail" class="w-16 h-16 object-cover rounded-md border border-gray-300">
+                
             </div>
         </div>
 
@@ -65,5 +63,45 @@
         </div>
     </div>
 
+     <section class="p-8 my-4">
+            <h3 class="flex justify-between items-center lg:text-2xl font-bold mb-4">
+                Category 1
+                <a href="#" class="text-red-600 no-underline text-sm lg:text-xl font-bold">See All</a>
+            </h3>
+            <div class="grid grid-cols-4 gap-4">
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-300">
+                    <img src="../image/foto.png" alt="Product" class="max-w-full h-auto  rounded-md p-4 text-center mb-5">
+                    <hr>
+                    <div class="p-4">
+                        <p>Ac scelerisque ac consectetur est dolor at</p>
+                        <p class="font-bold text-red-600">Rp1,000,000</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-300">
+                    <img src="../image/foto.png" alt="Product" class="max-w-full h-auto  rounded-md p-4 text-center mb-5">
+                    <hr>
+                    <div class="p-4">
+                        <p>Ac scelerisque ac consectetur est dolor at</p>
+                        <p class="font-bold text-red-600">Rp1,000,000</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-xl border border-gray-300">
+                    <img src="../image/foto.png" alt="Product" class="max-w-full h-auto  rounded-md p-4 text-center mb-5">
+                    <hr>
+                    <div class="p-4">
+                        <p>Ac scelerisque ac consectetur est dolor at</p>
+                        <p class="font-bold text-red-600">Rp1,000,000</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-xl border border-gray-300">
+                    <img src="../image/foto.png" alt="Product" class="max-w-full h-auto  rounded-md p-4 text-center mb-5">
+                    <hr>
+                    <div class="p-4">
+                        <p>Ac scelerisque ac consectetur est dolor at</p>
+                        <p class="font-bold text-red-600">Rp1,000,000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     
 </main>
